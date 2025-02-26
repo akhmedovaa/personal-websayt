@@ -1,0 +1,26 @@
+.container{
+    border: 1px solid rgb(15, 14, 14);
+    background-color: rgb(107, 0, 207);
+    min-height: 70vh;
+    padding: 1rem;
+}
+.name{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    animation: harakat 2s ease infinite alternate;
+    margin: 0 auto;
+    
+    
+}
+@keyframes harakat{
+    0% {
+        transform: translate(0)
+    }
+    50% {
+        transform: translate(80vw);
+    }
+    100% {
+        transform: translate(80vw, -20vh)
+    }
+}
